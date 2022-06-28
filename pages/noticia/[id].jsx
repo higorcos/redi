@@ -44,7 +44,7 @@ export async function getStaticPaths(){
         }
       }
     })
-    return {paths,fallback:true}//atenção
+    return {paths,fallback:false}//atenção
 }
 
 
